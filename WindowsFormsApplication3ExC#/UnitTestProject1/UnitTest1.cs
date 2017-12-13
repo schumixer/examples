@@ -12,7 +12,7 @@ namespace WindowsFormsApplication3.Tests
       MyPoint x = new MyPoint(5);
       MyPoint y = new MyPoint(2);
       int expected = 7;
-      int actual = x.Sum(y);
+      int actual = x.Sum(y);//Hello
       Assert.AreEqual(expected, actual);
     }
   }
